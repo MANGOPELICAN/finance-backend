@@ -1,0 +1,11 @@
+# Compilation Files
+## /target/
+## *.class
+
+# IDE configuration files
+## .idea/
+## .vscode/
+
+# Secrets and Variables
+## .env
+## *.pem
