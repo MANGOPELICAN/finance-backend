@@ -1,11 +1,18 @@
 # Compilation Files
-## /target/
-## *.class
+/target/
+*.class
+/*.jar
+
 
 # IDE configuration files
-## .idea/
-## .vscode/
+.idea/
+.vscode/
 
 # Secrets and Variables
-## .env
-## *.pem
+.env
+*.pem
+
+
+# Ignore IntelliJ modules
+*.iml
+out/
