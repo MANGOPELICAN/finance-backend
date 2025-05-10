@@ -16,3 +16,7 @@
 # Ignore IntelliJ modules
 *.iml
 out/
+
+# Don’t commit your certificates or keystores
+certs/
+*.jks
