@@ -12,7 +12,6 @@
 .env
 *.pem
 
-
 # Ignore IntelliJ modules
 *.iml
 out/
