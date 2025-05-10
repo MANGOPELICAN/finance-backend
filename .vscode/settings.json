@@ -1,0 +1,6 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+  // turn on annotation processing so it picks up generated-sources
+  "java.annotationProcessing.enabled": true
+}
