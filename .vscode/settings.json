@@ -1,6 +1,9 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.compile.nullAnalysis.mode": "automatic",
-  // turn on annotation processing so it picks up generated-sources
-  "java.annotationProcessing.enabled": true
+
+      // trigger Maven->Eclipse project update after editing pom.xml
+
+  "java.project.sourcePaths": ["src/main/java", "target/generated-sources/annotations"],
+  "java.settings.url": ""
 }

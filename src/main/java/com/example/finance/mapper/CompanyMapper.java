@@ -11,7 +11,7 @@ import org.mapstruct.Mapping;
 public interface CompanyMapper {
 
     @Mapping(target = "id", ignore = true)
-    @Mapping(target = "password", ignore = true)
+    @Mapping(target = "password", source = "rawPassword")
     // inbound mapping (DTO -> Entity)
     Company toEntity(CompanyCreateDTO dto);
 
