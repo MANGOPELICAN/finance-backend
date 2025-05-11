@@ -2,7 +2,7 @@
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.compile.nullAnalysis.mode": "automatic",
 
-      // trigger Maven->Eclipse project update after editing pom.xml
+    
 
   "java.project.sourcePaths": ["src/main/java", "target/generated-sources/annotations"],
   "java.settings.url": ""
